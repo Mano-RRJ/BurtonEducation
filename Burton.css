@@ -1,0 +1,65 @@
+* {
+    box-sizing: border-box;
+}
+
+div#wrapper, footer {
+    margin:auto;
+    width: 1000px;
+    background-color: rgb(252, 235, 235);
+    padding: 20px;
+}
+
+body {
+    font-family: Arial;
+    line-height: 25px;
+}
+
+nav {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+nav a {
+    margin-right: 20px;
+    color: darkblue}
+a {
+    color: white;
+}
+
+section.Appel, section.Visuals {
+    width: 50%;
+    float: left;
+}
+
+section.Visuals {
+    text-align: right;
+}
+
+img.Appel {
+    width: 493px;
+}
+
+img.Visuals {
+    width: 450px;
+    margin-bottom: 10px;
+}
+
+article {
+    display: inline-block;
+    width: 33%;
+    padding-right: 10px;
+    vertical-align: top;
+}
+
+article:last-child {
+    padding-right: 0px;
+}
+
+img.article {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+footer {
+    height: 100;
+    background-color: darkgrey;
+}
